@@ -31,3 +31,13 @@ Deployment result: GitHub Actions build succeeded; deploy stopped at configure-p
 ## Organization migration
 
 Migrated the complete website and Git history to scoai-lab/scoai-lab.github.io at the user’s request. The new repository grants admin access, allowing GitHub Pages configuration. The original htkchi repository remains unchanged. Updated the public GitHub link and deployment documentation for the organization domain.
+
+## Typography and usability review
+
+- Bundled Be Vietnam Pro (400/500/600/700) with its OFL license; Vietnamese uses consistent sans-serif headings and improved diacritic spacing.
+- Increased body, supporting copy, filters, metadata and deadline values; small-phone research cards use one column and abstract/paper blocks stack.
+- Dark-mode branding uses the original transparent logo with a reversed monochrome treatment, without a background rectangle.
+- Replaced the theme select with a keyboard-accessible icon button cycling Light → Dark → Auto, with current/next labels and saved preference.
+- Localized headings, filter options and supporting labels. Added mobile filter close/show-results controls with focus restoration; Escape restores navigation focus.
+- Versioned CSS/JS build URLs to avoid stale UI assets after deployment.
+- Browser QA: all three routes in Vietnamese at 320/768/1440px without horizontal overflow; English light and Vietnamese dark visual checks; theme cycle + reload + Enter, mobile filtering, and Escape focus tested. Existing 13 logic tests pass.

@@ -1,6 +1,7 @@
 import { cp, mkdir, rm, writeFile, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const dist=join(root,'dist');
 for(const kind of ['conference','mpc']){
@@ -16,4 +17,12 @@ for(const path of ['index.html','credits.html','conference-deadlines','mpc-deadl
 await mkdir(join(dist,'docs'),{recursive:true});
 for(const file of ['MPC-LICENSE.txt','CCF-LICENSE.txt'])await cp(join(root,'docs',file),join(dist,'docs',file));
 await writeFile(join(dist,'.nojekyll'),'');
+// Fresh URLs prevent stale cached styling and controls after a deployment.
+for (const asset of ['style.css','app.js','theme.js']) {
+ const hash=createHash('sha256').update(await readFile(join(dist,'assets',asset))).digest('hex').slice(0,10);
+ for (const page of ['index.html','credits.html','conference-deadlines/index.html','mpc-deadlines/index.html']) {
+  const path=join(dist,page);const html=await readFile(path,'utf8');
+  await writeFile(path,html.replaceAll(`assets/${asset}"`,`assets/${asset}?v=${hash}"`));
+ }
+}
 console.log('Built dist/: home, conference deadlines, MPC deadlines, credits, local assets and data.');

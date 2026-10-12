@@ -8,7 +8,7 @@ A responsive lab website and two integrated research deadline trackers, branded 
 - `/conference-deadlines/`: conference search, area / CORE / country filters, abstract and paper countdowns, TBA status, timezone selection and iCal export.
 - `/mpc-deadlines/`: MPC venue search, domain / publication type / CORE filters, multiple rounds, expected CFPs, rebuttal notes and iCal export.
 
-Shared English/Vietnamese UI, light/dark/automatic themes, mobile navigation, accessible form labels, reduced-motion support and persistent preferences. No backend, analytics, account system or frontend dependencies. Google Fonts is optional; system fonts remain usable offline. All data is included locally.
+Shared English/Vietnamese UI, light/dark/automatic themes, mobile navigation, accessible form labels, reduced-motion support and persistent preferences. No backend, analytics, account system or frontend dependencies. Vietnamese uses locally bundled Be Vietnam Pro with its SIL Open Font License. English uses optional Google Fonts with system fallbacks. All data is included locally.
 
 ## Preview and validate
 
