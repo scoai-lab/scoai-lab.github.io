@@ -1,0 +1,1 @@
+try { const t=localStorage.getItem('scoai-theme')||'light'; document.documentElement.dataset.theme=t==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t; } catch { document.documentElement.dataset.theme='light'; }

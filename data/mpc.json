@@ -1,0 +1,3334 @@
+{
+  "source": "https://github.com/mpc-deadlines/mpc-deadlines.github.io",
+  "sourceHash": "17c0d68c55689ea3726d49ecdf07274613233a3fa7683cefa1416964db7c19f5",
+  "syncedAt": "2026-10-12T15:56:12.442388+00:00",
+  "groups": [
+    {
+      "key": "filter1",
+      "label": "Research domain",
+      "options": [
+        {
+          "tag": "THEORY",
+          "name": "Theory"
+        },
+        {
+          "tag": "PRACT",
+          "name": "Practical"
+        },
+        {
+          "tag": "APPLIED",
+          "name": "Applied"
+        },
+        {
+          "tag": "PPML",
+          "name": "Machine Learning"
+        },
+        {
+          "tag": "HW",
+          "name": "Hardware"
+        },
+        {
+          "tag": "SOK",
+          "name": "SoKs"
+        },
+        {
+          "tag": "POS",
+          "name": "Position"
+        }
+      ]
+    },
+    {
+      "key": "filter2",
+      "label": "Publication type",
+      "options": [
+        {
+          "tag": "CNF",
+          "name": "Conferences"
+        },
+        {
+          "tag": "JRN",
+          "name": "Journals"
+        },
+        {
+          "tag": "WK",
+          "name": "Workshops"
+        },
+        {
+          "tag": "PS",
+          "name": "Posters"
+        },
+        {
+          "tag": "CRS",
+          "name": "Crypto Schools"
+        },
+        {
+          "tag": "MISC",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "key": "filter3",
+      "label": "CORE ranking",
+      "options": [
+        {
+          "tag": "A*",
+          "name": "A*"
+        },
+        {
+          "tag": "A",
+          "name": "A"
+        },
+        {
+          "tag": "B",
+          "name": "B"
+        },
+        {
+          "tag": "C",
+          "name": "C"
+        },
+        {
+          "tag": "National",
+          "name": "National"
+        },
+        {
+          "tag": "Unranked",
+          "name": "Unranked"
+        },
+        {
+          "tag": "Not classified",
+          "name": "Not classified"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "name": "ACM CCS",
+      "description": "ACM Conference on Computer and Communications Security",
+      "year": 2026,
+      "link": "https://www.sigsac.org/ccs/CCS2026/",
+      "abdeadline": "Jan 07, Apr 22",
+      "rebut": "March 17-20, June 29 - July 01",
+      "date": "November 15-19",
+      "place": "The Hague, Netherlands",
+      "comment": "2 deadlines. Notifications - April 09, July 17.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "A*"
+      ],
+      "id": "312b0ea616449f",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-14T23:59:00-12:00"
+        },
+        {
+          "date": "2026-04-29T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM STOC",
+      "description": "ACM Symposium on Theory of Computing",
+      "year": 2027,
+      "link": "https://acm-stoc.org/stoc2027/",
+      "date": "June 06-11",
+      "place": "Atlanta, Georgia",
+      "comment": "Notification - February 01.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A*"
+      ],
+      "id": "74c4871415706f",
+      "eventStart": "2027-06-06",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-11-02T19:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CRYPTO",
+      "description": "International Cryptology Conference",
+      "year": 2026,
+      "link": "https://crypto.iacr.org/2026",
+      "rebut": "April 07-13",
+      "date": "August 17-20",
+      "place": "Santa Barbara, USA",
+      "comment": "Notification - May 04. Early reject - April 07.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A*"
+      ],
+      "id": "5563e624cdf0aa",
+      "eventStart": "2026-08-17",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-12T23:59:00-08:00"
+        }
+      ],
+      "sourceTimezone": "PT"
+    },
+    {
+      "name": "EUROCRYPT",
+      "description": "European Cryptology Conference",
+      "year": 2027,
+      "link": "https://eurocrypt.iacr.org/2027/callforpapers.php",
+      "date": "April 11-15",
+      "place": "Eindhoven",
+      "comment": "Early Reject Notification: November 30, Notification: January 18, 2027",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A*"
+      ],
+      "id": "0c186f6145bda0",
+      "eventStart": "2027-04-11",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE FOCS",
+      "description": "IEEE Symposium on Foundations of Computer Science",
+      "year": 2026,
+      "link": "https://focs.computer.org/2026/",
+      "date": "November 08-11",
+      "place": "New York, USA",
+      "comment": "Notification - July 3.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A*"
+      ],
+      "id": "433fa643a122b2",
+      "eventStart": "2026-11-08",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-04-01T16:59:00-04:00"
+        }
+      ],
+      "sourceTimezone": "EDT"
+    },
+    {
+      "name": "IEEE INFOCOM",
+      "description": "IEEE International Conference on Computer Communications",
+      "year": 2027,
+      "link": "https://infocom2027.ieee-infocom.org",
+      "abdeadline": "July 24",
+      "date": "May 24-27",
+      "place": "Honolulu, HI, USA",
+      "comment": "Notification - December 08.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "A*"
+      ],
+      "id": "e05c080102f063",
+      "eventStart": "2027-05-24",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-31T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE S&P (Oakland)",
+      "description": "IEEE Symposium on Security and Privacy",
+      "year": 2027,
+      "link": "https://sp2027.ieee-security.org/",
+      "abdeadline": "June 4, November 10",
+      "rebut": "August 20-September 4, February 11-26",
+      "date": "TBA likely May 2027",
+      "place": "Montreal, Quebec, Canada",
+      "comment": "Early Reject -  July 27, January 18. Notification - September 11, March 5.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "A*"
+      ],
+      "id": "7e4508218714f1",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-11T23:59:00-12:00"
+        },
+        {
+          "date": "2026-11-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "NDSS",
+      "description": "Network and Distributed System Security Symposium",
+      "year": 2027,
+      "link": "https://www.ndss-symposium.org/ndss2027/",
+      "rebut": "June 24-28, October 08-10",
+      "date": "March 22-26",
+      "place": "Seoul, South Korea",
+      "comment": "Early Reject - June 12, September 25. Notification - July 22 and November 04.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "A*"
+      ],
+      "id": "d6271b6892bf12",
+      "eventStart": "2027-03-22",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-06T23:59:00-12:00"
+        },
+        {
+          "date": "2026-08-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM PODC",
+      "description": "ACM Symposium on Principles of Distributed Computing",
+      "year": 2026,
+      "link": "https://www.podc.org/podc2026/",
+      "abdeadline": "February 11",
+      "date": "June 06-10",
+      "place": "Egham, England",
+      "comment": "Notification - April 29. Includes Brief Announcements.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A*"
+      ],
+      "id": "a52e54faf64879",
+      "eventStart": "2026-06-06",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM SIGMOD+PODS (PODS)",
+      "description": "Principles of Database Systems Symposium",
+      "year": 2027,
+      "link": "https://2027.sigmod.org",
+      "abdeadline": "May 23, December 03",
+      "date": "June 13-19",
+      "place": "Huntington Beach, CA, USA",
+      "comment": "Notification - September 01, March 01. Data Privacy.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "A*"
+      ],
+      "id": "646587dea03b52",
+      "eventStart": "2027-06-13",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-30T23:59:00-12:00"
+        },
+        {
+          "date": "2026-12-10T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM SIGMOD+PODS (SIGMOD)",
+      "description": "ACM Special Interest Group on Management of Data Conference",
+      "year": 2027,
+      "link": "https://2027.sigmod.org",
+      "abdeadline": "January 10, April 10, July 10, October 10",
+      "date": "June 13-19",
+      "place": "Huntington Beach, CA, USA",
+      "comment": "Notification - June 02, September 02, December 02, March 02. Data Privacy, Differential Privacy, Industrial Track.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "A*"
+      ],
+      "id": "cd81413231e7f8",
+      "eventStart": "2027-06-13",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-17T23:59:00-12:00"
+        },
+        {
+          "date": "2026-04-17T23:59:00-12:00"
+        },
+        {
+          "date": "2026-07-17T23:59:00-12:00"
+        },
+        {
+          "date": "2026-10-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "USENIX Security",
+      "description": "Usenix Security Symposium",
+      "year": 2027,
+      "link": "https://www.usenix.org/conference/usenixsecurity27",
+      "abdeadline": "August 18, January 19",
+      "rebut": "November 06-13, April 16-23",
+      "date": "August 11-13",
+      "place": "Denver, CO, USA",
+      "comment": "Early Reject - October 07, March 17. Notification - December 04, May 14. No major revision, but two week shepherding.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "A*"
+      ],
+      "id": "54a0bb6ca929ba",
+      "eventStart": "2027-08-11",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-25T23:59:00-12:00"
+        },
+        {
+          "date": "2027-01-26T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "The Web Conference",
+      "description": "The Web Conference (WWW)",
+      "year": 2027,
+      "link": "https://acmweb2027.org",
+      "abdeadline": "October 18, November 09",
+      "rebut": "December 12-19",
+      "date": "May 10-14",
+      "place": "Dublin, Ireland",
+      "comment": "Notification - January 21. Nov track for AI4Good.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "A*"
+      ],
+      "id": "bffdec13b85f48",
+      "eventStart": "2027-05-10",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-10-25T23:59:00-12:00"
+        },
+        {
+          "date": "2026-11-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "VLDB",
+      "description": "International Conference on Very Large Data Bases",
+      "year": 2027,
+      "link": "https://vldb.org/2027/",
+      "abdeadline": "25th of previous month",
+      "date": "August 23-27",
+      "place": "Athens, Greece",
+      "comment": "Rolling deadline every month. Notification on 15th of next month. Multiple tracks.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "A*"
+      ],
+      "id": "5376b2f408e729",
+      "eventStart": "2027-08-23",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-04-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-05-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-06-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-07-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-08-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-09-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-10-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-11-01T16:59:00-12:00"
+        },
+        {
+          "date": "2026-12-01T16:59:00-12:00"
+        },
+        {
+          "date": "2027-01-01T16:59:00-12:00"
+        },
+        {
+          "date": "2027-02-01T16:59:00-12:00"
+        },
+        {
+          "date": "2027-03-01T16:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "VLDB (Industrial Track)",
+      "description": "International Conference on Very Large Data Bases",
+      "year": 2027,
+      "link": "https://vldb.org/2027/call-for-industrial-track.html",
+      "date": "August 23-27",
+      "place": "Athens, Greece",
+      "comment": "One author should have industry affiliation. Notification - April 27.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "A*",
+        "EXPCFP"
+      ],
+      "id": "1cdca6d4d5513a",
+      "eventStart": "2027-08-23",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-03-02T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM ASIACCS",
+      "description": "ACM Asia Conference on Computer and Communications Security",
+      "year": 2027,
+      "link": "https://asiaccs2027.cityu.edu.mo/home/index.html",
+      "rebut": "October 26-30, March 08-12",
+      "date": "July 12-16",
+      "place": "Macau, China",
+      "comment": "Early Reject - Septemeber 25, February 05. Notification - November 13, March 31.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "SOK",
+        "A"
+      ],
+      "id": "1c34bcf9c062af",
+      "eventStart": "2027-07-12",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-21T23:59:00-12:00"
+        },
+        {
+          "date": "2026-12-11T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACSAC",
+      "description": "Annual Computer Security Applications Conference",
+      "year": 2026,
+      "link": "https://www.acsac.org/2026",
+      "rebut": "August 18-25",
+      "date": "December 07-11",
+      "place": "Los Angeles, California",
+      "comment": "Early Reject - July 13. Notification - September 08.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "A"
+      ],
+      "id": "806153a9baecda",
+      "eventStart": "2026-12-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-26T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ASIACRYPT",
+      "description": "International Conference on the Theory and Application of Cryptology and Information Security",
+      "year": 2026,
+      "link": "https://asiacrypt.iacr.org/2026/",
+      "rebut": "July 17-22",
+      "date": "December 07-11",
+      "place": "Hong Kong",
+      "comment": "Early Reject - July 17. Notification - August 14.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A"
+      ],
+      "id": "4b85b14f46491f",
+      "eventStart": "2026-12-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-22T11:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CHES",
+      "description": "Cryptographic Hardware and Embedded Systems",
+      "year": 2027,
+      "link": "https://ches.iacr.org/2027/",
+      "rebut": "Aug 23-28, Nov 23-28, Feb 23-28, May 23-28",
+      "date": "September 06-09",
+      "place": "Cancún, Mexico",
+      "comment": "Extended-review long paper spanning two issues. Long paper requires pre-approval.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "A"
+      ],
+      "id": "2deb3becd294cd",
+      "eventStart": "2027-09-06",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-15T23:59:00-12:00"
+        },
+        {
+          "date": "2026-10-15T23:59:00-12:00"
+        },
+        {
+          "date": "2027-01-15T23:59:00-12:00"
+        },
+        {
+          "date": "2027-04-15T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "DISC",
+      "description": "International Symposium on Distributed Computing",
+      "year": 2026,
+      "link": "https://www.disc-conference.org/wp/disc2026/",
+      "abdeadline": "May 27",
+      "rebut": "July 21-25",
+      "date": "November 09-13",
+      "place": "Rome, Italy",
+      "comment": "Includes Brief Announcements. Notification - August 05.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "A"
+      ],
+      "id": "c5696e2b53a6ce",
+      "eventStart": "2026-11-09",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-01T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ESORICS",
+      "description": "European Symposium on Research in Computer Security",
+      "year": 2026,
+      "link": "https://sites.google.com/di.uniroma1.it/esorics2026/",
+      "date": "September 14-18",
+      "place": "Rome, Italy",
+      "comment": "Notification - March 24, June 12.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "A"
+      ],
+      "id": "ee115dcae593a8",
+      "eventStart": "2026-09-14",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-09T23:59:00-12:00"
+        },
+        {
+          "date": "2026-04-21T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "EuroSys",
+      "description": "The European Conference on Computer Systems",
+      "year": 2027,
+      "link": "https://2027.eurosys.org",
+      "abdeadline": "May 07, September 17",
+      "rebut": "July 29-31, January 06-08",
+      "date": "April 19-23",
+      "place": "Rabat, Morocco",
+      "comment": "Notification - August 21, January 29.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A"
+      ],
+      "id": "501ae89caaac9a",
+      "eventStart": "2027-04-19",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-14T23:59:00-12:00"
+        },
+        {
+          "date": "2026-09-24T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "FC",
+      "description": "Financial Cryptography and Data Security",
+      "year": 2027,
+      "link": "https://fc27.ifca.ai",
+      "date": "February 8-12",
+      "place": "Barbados",
+      "comment": "Notification - November 5",
+      "tags": [
+        "PRACT",
+        "SOK",
+        "CNF",
+        "A"
+      ],
+      "id": "6bcc434bb1d3d6",
+      "eventStart": "2027-02-08",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE CSF",
+      "description": "IEEE Computer Security Foundations Symposium",
+      "year": 2027,
+      "link": "https://www.ieee-security.org/TC/CSF2027/",
+      "date": "July 26-29",
+      "place": "Tokyo, Japan",
+      "comment": "Notification - October 07, December 14, April 05.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A",
+        "SOK"
+      ],
+      "id": "47286f575aa6af",
+      "eventStart": "2027-07-26",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-03T23:59:00-12:00"
+        },
+        {
+          "date": "2026-10-15T23:59:00-12:00"
+        },
+        {
+          "date": "2027-01-28T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE Euro S&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "year": 2027,
+      "link": "https://www.ieee-security.org/TC/EuroSP2027/",
+      "abdeadline": "November 25",
+      "rebut": "February 24 - March 01",
+      "date": "July 05-09",
+      "place": "Madrid, Spain",
+      "comment": "Notification - March 18. Early Reject - January 28.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "A"
+      ],
+      "id": "73ca8cd53a07c3",
+      "eventStart": "2027-07-05",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-12-02T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE ICDCS",
+      "description": "IEEE International Conference on Distributed Computing Systems",
+      "year": 2026,
+      "link": "https://icdcs2026.icdcs.org",
+      "abdeadline": "January 07",
+      "date": "July 22-25",
+      "place": "South Korea",
+      "comment": "Notification - April 02.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "A"
+      ],
+      "id": "9b11329153405d",
+      "eventStart": "2026-07-22",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-14T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ITCS",
+      "description": "Innovations in Theoretical Computer Science",
+      "year": 2027,
+      "link": "http://itcs-conf.org/",
+      "abdeadline": "September 02",
+      "date": "January 12-15",
+      "place": "UC Berkeley",
+      "comment": "Notification - November 06.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "A"
+      ],
+      "id": "9f4fa99ae74551",
+      "eventStart": "2027-01-12",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-04T11:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PETS",
+      "description": "Privacy Enhancing Technologies Symposium",
+      "year": 2027,
+      "link": "https://petsymposium.org/cfp27.php",
+      "rebut": "July 11-17, October 10-16, January 12-19, April 10-16.",
+      "date": "July 15-20",
+      "place": "Delft, The Netherlands",
+      "comment": "Notifications - 1st of August, November, February, May.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "A"
+      ],
+      "id": "e25741fea56336",
+      "eventStart": "2027-07-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-31T23:59:00-12:00"
+        },
+        {
+          "date": "2026-08-31T23:59:00-12:00"
+        },
+        {
+          "date": "2026-11-30T23:59:00-12:00"
+        },
+        {
+          "date": "2027-02-28T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SOUPS",
+      "description": "Symposium on Usable Privacy and Security",
+      "year": 2026,
+      "link": "https://soups.page",
+      "abdeadline": "February 12",
+      "rebut": "April 23-30",
+      "date": "August 23-26",
+      "place": "Hannover, Germany",
+      "comment": "Notification - May 19.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "SOK",
+        "A"
+      ],
+      "id": "794056219859b2",
+      "eventStart": "2026-08-23",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACISP",
+      "description": "Australasian Conference on Information Security and Privacy",
+      "year": 2027,
+      "link": "https://acisp.org",
+      "date": "July 07-10",
+      "place": "Melbourne, Australia",
+      "comment": "Notification - January 15, April 16.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "B"
+      ],
+      "id": "dcae15c0ecbdb5",
+      "eventStart": "2027-07-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-11-30T23:59:00-12:00"
+        },
+        {
+          "date": "2027-03-01T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM WiSec",
+      "description": "Security and Privacy in Wireless and Mobile Networks",
+      "year": 2027,
+      "link": "https://wisec27.events.cispa.de",
+      "date": "June 30 - July 03",
+      "place": "Saarbrücken, Germany",
+      "comment": "Notification - January 13, April 14.",
+      "tags": [
+        "APPLIED",
+        "CNF",
+        "B",
+        "EXP"
+      ],
+      "id": "4d27e94e0f68ed",
+      "eventStart": "2027-06-30",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2026-11-18T23:59:00-12:00"
+        },
+        {
+          "date": "2027-03-03T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACNS",
+      "description": "International Conference on Applied Cryptography and Network Security",
+      "year": 2027,
+      "link": "https://acns2027.isg.rhul.ac.uk",
+      "date": "June 28 - July 1",
+      "place": "Royal Holloway, University of London, UK",
+      "comment": "Notification - November 26, March 25",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "SOK",
+        "CNF",
+        "B"
+      ],
+      "id": "fd943da9640fc6",
+      "eventStart": "2027-06-28",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-24T23:59:00-12:00"
+        },
+        {
+          "date": "2027-01-21T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ARES",
+      "description": "International Conference on Availability, Reliability and Security",
+      "year": 2026,
+      "link": "https://www.ares-conference.eu",
+      "abdeadline": "March 02",
+      "date": "August 24-27",
+      "place": "Linköping, Sweden",
+      "comment": "Short paper and SoKs. Notification - May 13.",
+      "tags": [
+        "PRACT",
+        "SOK",
+        "CNF",
+        "B"
+      ],
+      "id": "024c512c474479",
+      "eventStart": "2026-08-24",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-09T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CANS",
+      "description": "International Conference on Cryptology and Network Security",
+      "year": 2026,
+      "link": "https://uow-ic2.github.io/cans2026/index.html",
+      "date": "November 23-25",
+      "place": "Wollongong, Australia",
+      "comment": "Notification - August 10.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "B"
+      ],
+      "id": "4ed46a160fbe00",
+      "eventStart": "2026-11-23",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-10T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CT-RSAC",
+      "description": "RSA Conference Cryptographers’ Track",
+      "year": 2027,
+      "link": "https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/",
+      "date": "April 05-08",
+      "place": "San Francisco, CA, USA",
+      "comment": "Notification - December 10.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "B"
+      ],
+      "id": "85dbbb5c8a2995",
+      "eventStart": "2027-04-05",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-10-22T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE ISIT",
+      "description": "IEEE International Symposium on Information Theory",
+      "year": 2026,
+      "link": "https://2026.ieee-isit.org",
+      "date": "June 28 - July 03",
+      "place": "Guangzhou, China",
+      "comment": "Notification - April 01.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "B"
+      ],
+      "id": "1a0a74182990fe",
+      "eventStart": "2026-06-28",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE ITW",
+      "description": "IEEE Information Theory Workshop",
+      "year": 2027,
+      "link": "https://2027.ieee-itw.org",
+      "date": "November 10-13",
+      "place": "Arizona, USA",
+      "comment": "Notification - June 27.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "B",
+        "EXP"
+      ],
+      "id": "3289df44ff9a53",
+      "eventStart": "2027-11-10",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-05-03T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PKC",
+      "description": "International Conference on Practice and Theory of Public Key Cryptography",
+      "year": 2027,
+      "link": "https://pkc.iacr.org/2027/",
+      "rebut": "Oct 09-16",
+      "date": "March 01-04",
+      "place": "Taipei, Taiwan",
+      "comment": "First round notification - October 09. Final notification - November 26.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "B"
+      ],
+      "id": "0957968c140a04",
+      "eventStart": "2027-03-01",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SAC",
+      "description": "Conference on Selected Areas in Cryptography",
+      "year": 2026,
+      "link": "https://sacworkshop.org/SAC26/",
+      "date": "August 26-28",
+      "place": "Ottawa, Ontario",
+      "comment": "Notification - March 19, June 25",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "B"
+      ],
+      "id": "61d75f9489fd14",
+      "eventStart": "2026-08-26",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-02T23:59:00-12:00"
+        },
+        {
+          "date": "2026-05-11T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "TCC",
+      "description": "Theory of Cryptography Conference",
+      "year": 2026,
+      "link": "https://tcc.iacr.org/2026/",
+      "date": "November 10-13",
+      "place": "New York City, USA",
+      "comment": "Notification - August 20. Co-located with FOCS 2026",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "B"
+      ],
+      "id": "fed928c4571e30",
+      "eventStart": "2026-11-10",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SECRYPT",
+      "description": "International Conference on Information Security and Cryptography",
+      "year": 2026,
+      "link": "https://secrypt.scitevents.org",
+      "date": "July 16-18",
+      "place": "Porto, Portugal",
+      "comment": "Notification - April 30, May 22. Position Papers in April deadline.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "POS",
+        "CNF",
+        "C"
+      ],
+      "id": "217803ac889b69",
+      "eventStart": "2026-07-16",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-23T23:59:00-12:00"
+        },
+        {
+          "date": "2026-04-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ICDCN",
+      "description": "International Conference on Distributed Computing and Networking",
+      "year": 2027,
+      "link": "https://cs3-lab.github.io/icdcn/index.html",
+      "date": "January 04-07",
+      "place": "Surathkal, Karnataka, India",
+      "comment": "Notification - October 01.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "National"
+      ],
+      "id": "396ac7c24887ff",
+      "eventStart": "2027-01-04",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-30T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ICISS",
+      "description": "International Conference on Information Systems Security",
+      "year": 2026,
+      "link": "https://iciss.in",
+      "date": "December 16-20",
+      "place": "Chennai, India",
+      "comment": "Notification - September 10.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "National"
+      ],
+      "id": "b4504c8d61b6da",
+      "eventStart": "2026-12-16",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-30T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "INDOCRYPT",
+      "description": "International Conference on Cryptology in India",
+      "year": 2026,
+      "link": "https://indocrypt2026.cdacb.in/#home",
+      "date": "December 13-16",
+      "place": "Bengaluru, India",
+      "comment": "Notification - October 10",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "National"
+      ],
+      "id": "e3da40b26ed2d8",
+      "eventStart": "2026-12-13",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-27T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SCN",
+      "description": "Conference on Security and Cryptography for Networks",
+      "year": 2026,
+      "link": "https://scn.unisa.it/scn26/",
+      "date": "September 14-16",
+      "place": "Amalfy, Italy",
+      "comment": "Notification - April 28. Occurs once in two years.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "National"
+      ],
+      "id": "c60924f8a91a44",
+      "eventStart": "2026-09-14",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-28T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM SoCC",
+      "description": "ACM Symposium on Cloud Computing",
+      "year": 2026,
+      "link": "https://acmsocc.org/2026/papers.html",
+      "abdeadline": "Feb 06, July 07.",
+      "rebut": "April 12-14, September 10-12",
+      "date": "November 18-20",
+      "place": "Singapore",
+      "comment": "Notification - April 29, September 26.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "3373ba8fccede2",
+      "eventStart": "2026-11-18",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-13T23:59:00-12:00"
+        },
+        {
+          "date": "2026-07-14T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "AfricaCrypt",
+      "description": "International Conference on Cryptology",
+      "year": 2026,
+      "link": "https://www.africacrypt2026.tn",
+      "date": "July 08-10",
+      "place": "Hammamet, Tunisia",
+      "comment": "Notification - April 20.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "b626c117984e63",
+      "eventStart": "2026-07-08",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-01T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ArcticCrypt",
+      "description": "European Cryptology Conference",
+      "year": 2025,
+      "link": "https://simula-uib.com/arcticcrypt2025/",
+      "date": "July 06 - 11",
+      "place": "Longyearbyen",
+      "comment": "Notification - October 23.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "193cb675609823",
+      "eventStart": "2025-07-06",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2024-09-13T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "FLTA",
+      "description": "International Conference on Federated Learning Technologies and Applications",
+      "year": 2026,
+      "link": "https://flta-conference.org/flta-2026/",
+      "date": "October 27-30",
+      "place": "Paris, France",
+      "comment": "Notification - July 29.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "acd49877cff5b8",
+      "eventStart": "2026-10-27",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-30T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ITC",
+      "description": "Information-Theoretic Cryptography",
+      "year": 2026,
+      "link": "https://itcrypto.github.io/2026/index.html",
+      "date": "August 15-16",
+      "place": "Santa Barbara, CA, USA",
+      "comment": "Notification - May 08.",
+      "tags": [
+        "THEORY",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "1ffda19d88e3c7",
+      "eventStart": "2026-08-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE CNS",
+      "description": "IEEE Conference on Communications and Network Security",
+      "year": 2027,
+      "link": "https://cns2027.ieee-cns.org",
+      "date": "September 08-11",
+      "place": "Avignon, France",
+      "comment": "Notification - July 07.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "Not classified",
+        "EXP"
+      ],
+      "id": "1e89566e5d56d4",
+      "eventStart": "2027-09-08",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-05-05T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "LATINCRYPT",
+      "description": "International Conference On Cryptology And Information Security In Latin America",
+      "year": 2027,
+      "link": "https://ciencias.medellin.unal.edu.co/eventos/latincrypt/",
+      "date": "October 01-03",
+      "place": "Medellín, Colombia",
+      "comment": "Notification - July 18.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "CNF",
+        "Not classified",
+        "EXP"
+      ],
+      "id": "ac91b7551d7dad",
+      "eventStart": "2027-10-01",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-05-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SPACE",
+      "description": "Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering",
+      "year": 2026,
+      "link": "https://space2026.isec.tugraz.at",
+      "abdeadline": "July 07, September 04",
+      "date": "December 18-21",
+      "place": "Bangalore, India",
+      "comment": "Co-located with INDOCRYPT.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "bf7fcc98067594",
+      "eventStart": "2026-12-18",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-10T23:59:00-12:00"
+        },
+        {
+          "date": "2026-09-11T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "TRUST",
+      "description": "ACM Conference on Trustworthy and Responsible AI and Computing Systems",
+      "year": 2027,
+      "link": "https://eigtrust.acm.org/trust2027/",
+      "abdeadline": "October 24.",
+      "date": "March 07-09",
+      "place": "Washington DC",
+      "comment": "June deadline for Emerging Area Track.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "71ac01b9cd316d",
+      "eventStart": "2027-03-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-15T23:59:00-12:00"
+        },
+        {
+          "date": "2026-10-31T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "AISec",
+      "description": "Workshop on Artificial Intelligence and Security",
+      "year": 2026,
+      "link": "https://aisec.cc",
+      "date": "November 19",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - September 03. New Benchmark papers track.",
+      "conference": "ACM CCS.",
+      "tags": [
+        "PRACT",
+        "PPML",
+        "SOK",
+        "WK"
+      ],
+      "id": "af052b4083fdea",
+      "eventStart": "2026-11-19",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-24T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "APKC",
+      "description": "ACM ASIA Public-Key Cryptography Workshop",
+      "year": 2026,
+      "link": "https://iseclab.ec.t.kanazawa-u.ac.jp/en/APKC2026.html",
+      "date": "June 02",
+      "place": "Bangalore, India",
+      "comment": "Notification - March 30. Has proceedings.",
+      "conference": "ACM ASIACCS.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "WK"
+      ],
+      "id": "32a012e07c7c2b",
+      "eventStart": "2026-06-02",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-20T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CPSIoTSec",
+      "description": "Workshop on CPS&IoT Security and Privacy",
+      "year": 2026,
+      "link": "https://sites.google.com/view/cpsiotsec2026",
+      "date": "November 15",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - August 15. Has proceedings.",
+      "conference": "ACM CCS.",
+      "tags": [
+        "APPLIED",
+        "SOK",
+        "WK"
+      ],
+      "id": "fc68323027e246",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-15T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CPSS",
+      "description": "ACM Cyber-Physical System Security Workshop",
+      "year": 2026,
+      "link": "https://cpss26.github.io",
+      "date": "June 02",
+      "place": "Bangalore, India",
+      "comment": "Notification - March 15. Has proceedings.",
+      "conference": "AsiaCCS.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "922e242da45099",
+      "eventStart": "2026-06-02",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-31T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Data Privacy in Machine Learning",
+      "description": "Privacy-preserving Machine Learning and Privacy in Distributed Settings",
+      "year": 2026,
+      "link": "https://p1dpml.github.io/workshops/workshop-2.html",
+      "date": "November 02-04",
+      "place": "Aarhus, Denmark",
+      "comment": "Notification - September 17.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "fe51ffe8344b87",
+      "eventStart": "2026-11-02",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-10T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "DeCaF",
+      "description": "7th MICCAI Workshop on Distributed, Collaborative and Federated Learning",
+      "year": 2026,
+      "link": "https://workshop-decaf.github.io/decaf-2026/",
+      "date": "October 1",
+      "place": "Strasbourg, France",
+      "comment": "Notification - August 12.",
+      "conference": "MICCAI",
+      "tags": [
+        "APPLIED",
+        "PPML",
+        "WK"
+      ],
+      "id": "b6eacfb55b605c",
+      "eventStart": "2026-10-01",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-24T23:59:00-07:00"
+        }
+      ],
+      "sourceTimezone": "PT"
+    },
+    {
+      "name": "FHE Conference",
+      "description": "Annual FHE.org Conference on Fully Homomorphic Encryption",
+      "year": 2027,
+      "link": "https://fhe.org/conferences/conference-2027",
+      "date": "April 07",
+      "place": "Seattle, USA",
+      "comment": "Notification - December 18.",
+      "conference": "RWC.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "WK"
+      ],
+      "id": "26c28ce20ab5aa",
+      "eventStart": "2027-04-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-11-01T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "FL-AsiaCCS",
+      "description": "Secure and Efficient Federated Learning",
+      "year": 2026,
+      "link": "https://federated-learning.org/fl-asiaccs-2026/",
+      "date": "June 02",
+      "place": "Bangalore, India",
+      "comment": "Notification - March 22. Has proceedings.",
+      "conference": "AsiaCCS.",
+      "tags": [
+        "APPLIED",
+        "PPML",
+        "WK"
+      ],
+      "id": "d364da0e1173af",
+      "eventStart": "2026-06-02",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-22T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "LAMPS",
+      "description": "Workshop on Large AI Systems and Models with Privacy and Security Analysis",
+      "year": 2026,
+      "link": "https://lamps2026-ccs.github.io/home/",
+      "date": "November 15",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - August 8, 2026. Has proceedings.",
+      "conference": "ACM CCS.",
+      "tags": [
+        "APPLIED",
+        "WK"
+      ],
+      "id": "929d04352f0d39",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "LM-SHIELD",
+      "description": "Privacy in Large Language Models (LLM) and Natural Language Processing (NLP)",
+      "year": 2026,
+      "link": "https://sites.google.com/view/lm-shield2026/",
+      "date": "June 02",
+      "place": "Bangalore, India",
+      "comment": "Notification - March 16. Has proceedings.",
+      "conference": "ACM ASIACCS.",
+      "tags": [
+        "PRACT",
+        "PPML",
+        "WK"
+      ],
+      "id": "30a9c673d414d6",
+      "eventStart": "2026-06-02",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-20T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "FL4Industry",
+      "description": "Workshop on Federated Learning for Industry",
+      "year": 2026,
+      "link": "https://fedlearn-hub.github.io",
+      "date": "October 27",
+      "place": "Paris, France",
+      "comment": "Notification - September 05.",
+      "conference": "FLTA.",
+      "tags": [
+        "APPLIED",
+        "PPML",
+        "WK"
+      ],
+      "id": "ecf0ec1331f94f",
+      "eventStart": "2026-10-27",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-02T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "LightSec",
+      "description": "Workshop on Lightweight Cryptography for Security & Privacy",
+      "year": 2026,
+      "link": "https://lightsec2026.com",
+      "date": "October 09-10",
+      "place": "Antalya, Turkey",
+      "comment": "Notification - August 21. Has proceedings.",
+      "conference": "CHES.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "4b84c331775d10",
+      "eventStart": "2026-10-09",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-13T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "MPC Security in Practice",
+      "description": "MPC Security in Practice",
+      "year": 2026,
+      "link": "https://mpcinthewild.github.io",
+      "date": "May 18",
+      "place": "Aarhus, Denmark",
+      "comment": "Notification - March 31. Internship application deadline - Jan 07.",
+      "conference": "TPMPC",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "a91577a8d3f1a2",
+      "eventStart": "2026-05-18",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-02T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PPML CRYPTO",
+      "description": "Privacy-Preserving Machine Learning Workshop",
+      "year": 2026,
+      "link": "https://crypto-ppml.github.io/2026/",
+      "date": "August 16",
+      "place": "Santa Barbara, USA",
+      "comment": "Notification - June 19",
+      "conference": "CRYPTO.",
+      "tags": [
+        "PRACT",
+        "PPML",
+        "WK"
+      ],
+      "id": "f0f46a6b64c64f",
+      "eventStart": "2026-08-16",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-10T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Responsibly Enabling Data for Foundation Models",
+      "description": "Workshop on Responsibly Enabling Data for Foundation Models @ COLM 2026",
+      "year": 2026,
+      "link": "https://re-data-colm2026.github.io/",
+      "date": "October 9",
+      "conference": "COLM 2026",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "PPML",
+        "WK"
+      ],
+      "id": "36c3f3e31700d0",
+      "eventStart": "2026-10-09",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-23T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "RWC",
+      "description": "Real World Crypto",
+      "year": 2027,
+      "link": "https://rwc.iacr.org/2027/",
+      "date": "April 05-07",
+      "place": "Seattle",
+      "comment": "Notification - December 10.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "86ac83ca58d6f3",
+      "eventStart": "2027-04-05",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-10-15T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "RWC",
+      "description": "Real World Crypto",
+      "year": 2028,
+      "link": "https://rwc.iacr.org/2028/",
+      "date": "April 05-07",
+      "place": "Bochum, Germany",
+      "comment": "Notification - January 10.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK",
+        "EXPCFP"
+      ],
+      "id": "ce42aa6d44f213",
+      "eventStart": "2028-04-05",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-11-16T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "RWMPC",
+      "description": "Real World MPC",
+      "year": 2026,
+      "link": "https://www.mpcalliance.org/rwmpc-2026",
+      "date": "March 07",
+      "place": "Taipei, Taiwan",
+      "comment": "Notification - February 13.",
+      "conference": "RWC",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "067f7d63e469eb",
+      "eventStart": "2026-03-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-31T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SAFE-AI",
+      "description": "Workshop on Systems & Architectures For Encrypted AI",
+      "year": 2026,
+      "link": "https://cmu-caos.github.io/safeAI/2026/",
+      "date": "June 27",
+      "place": "Raleigh, NC, USA",
+      "comment": "Notification - June 01.",
+      "conference": "ISCA.",
+      "tags": [
+        "PRACT",
+        "HW",
+        "WK"
+      ],
+      "id": "116bbf687fa83b",
+      "eventStart": "2026-06-27",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-21T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SECAI",
+      "description": "Workshop on Security and Artificial Intelligence",
+      "year": 2027,
+      "link": "https://sites.google.com/view/secai2027",
+      "date": "September 25-26",
+      "place": "Toulouse, France",
+      "comment": "Notification - August 07. Has proceedings.",
+      "conference": "ESORICS.",
+      "tags": [
+        "PRACT",
+        "WK",
+        "EXP"
+      ],
+      "id": "a97105f9749893",
+      "eventStart": "2027-09-25",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-06-07T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SeQureDB",
+      "description": "Workshop on Secure and Private Data Management",
+      "year": 2026,
+      "link": "https://sequredb.github.io",
+      "date": "May 31",
+      "place": "Bengaluru, India",
+      "comment": "Notification - March 31. Differential privacy, private data analytics.",
+      "conference": "ACM SIGMOD+PODS.",
+      "tags": [
+        "PRACT",
+        "PPML",
+        "WK"
+      ],
+      "id": "a704b50a582034",
+      "eventStart": "2026-05-31",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-12T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "SysteMPC",
+      "description": "Workshop on Systems for Secure Multi-Party Computation",
+      "year": 2026,
+      "link": "https://www.bu.edu/riscs/systempc-2026/",
+      "date": "September 29",
+      "place": "Prague, Czechia",
+      "comment": "Notification - July 24.",
+      "conference": "Symposium on Operating Systems Principles (SOSP).",
+      "tags": [
+        "PRACT",
+        "HW",
+        "WK"
+      ],
+      "id": "bf2981bb709dd9",
+      "eventStart": "2026-09-29",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-10T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "TrustFL-SIS",
+      "description": "Trustworthy Federated Learning for Smart Industrial Systems",
+      "year": 2026,
+      "link": "https://modal-unina.github.io/TrustFL-SIS/",
+      "date": "November 12",
+      "comment": "TrustFL-SIS is a half-day workshop at IEEE ICDM 2026",
+      "conference": "IEEE ICDM 2026",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "2c7801edcd1391",
+      "eventStart": "2026-11-12",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-20T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "WATCH",
+      "description": "Workshop on Analytics, Telemetry, and Cybersecurity for HPCC",
+      "year": 2026,
+      "link": "https://watch-miniconf.github.io",
+      "date": "November 15",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - August 21. Has proceedings.",
+      "conference": "ACM CCS.",
+      "tags": [
+        "APPLIED",
+        "SOK",
+        "WK"
+      ],
+      "id": "bce770028484ea",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "WAHC",
+      "description": "14th Workshop on Encrypted Computing & Applied Homomorphic Cryptography",
+      "year": 2026,
+      "link": "https://homomorphicencryption.org/wahc-2026-14th-workshop-on-encrypted-computing-applied-homomorphic-cryptography/",
+      "date": "November 15",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - TBA. Has proceedings.",
+      "conference": "ACM CCS.",
+      "tags": [
+        "APPLIED",
+        "WK"
+      ],
+      "id": "c87966629b6e6d",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "WPEC",
+      "description": "NIST Workshop on Privacy-Enhancing Cryptography 2026",
+      "year": 2026,
+      "link": "https://csrc.nist.gov/Events/2026/wpec2026",
+      "date": "October 26-29",
+      "place": "Online",
+      "comment": "Notification by October 05. Rolling deadline from August 26th.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "APPLIED",
+        "WK"
+      ],
+      "id": "5dcb28df274c52",
+      "eventStart": "2026-10-26",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-14T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "WPES",
+      "description": "Workshop on Privacy in the Electronic Society",
+      "year": 2026,
+      "link": "https://wpes2026.github.io",
+      "date": "November 16",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - September 4. Has proceedings.",
+      "conference": "ACM CCS.",
+      "tags": [
+        "PRACT",
+        "WK"
+      ],
+      "id": "2e0a3db432042f",
+      "eventStart": "2026-11-16",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM ASIACCS",
+      "description": "ACM Asia Conference on Computer and Communications Security",
+      "year": 2026,
+      "link": "https://asiaccs2026.cse.iitkgp.ac.in/",
+      "date": "June 01-06",
+      "place": "Bangalore, India",
+      "comment": "Notification - March 07. Has proceedings.",
+      "tags": [
+        "PRACT",
+        "PS"
+      ],
+      "id": "0322580555836d",
+      "eventStart": "2026-06-01",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-07T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM CCS",
+      "description": "ACM Conference on Computer and Communications Security",
+      "year": 2026,
+      "link": "https://www.sigsac.org/ccs/CCS2026/call-for/call-for-posters.html",
+      "date": "November 15-19",
+      "place": "The Hague, Netherlands",
+      "comment": "Notifications - August 27. Has proceedings.",
+      "tags": [
+        "PRACT",
+        "PS"
+      ],
+      "id": "4639035448db96",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-23T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACSAC",
+      "description": "Annual Computer Security Applications Conference",
+      "year": 2026,
+      "link": "https://www.acsac.org/2026/submissions/posters/",
+      "date": "December 07-11",
+      "place": "Los Angeles, California",
+      "comment": "Rolling notification.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "PS"
+      ],
+      "id": "9e8f80eaf21855",
+      "eventStart": "2026-12-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CHES",
+      "description": "Cryptographic Hardware and Embedded Systems",
+      "year": 2026,
+      "link": "https://ches.iacr.org/2026/callforposters.php",
+      "date": "October 11-15",
+      "place": "Antalya, Türkiye",
+      "comment": "Notification - September 14.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "PS"
+      ],
+      "id": "b2fbab60dc25d4",
+      "eventStart": "2026-10-11",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-01T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE Euro S&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "year": 2027,
+      "link": "https://www.ieee-security.org/TC/EuroSP2027/cfposters.html",
+      "date": "June 30 - July 04",
+      "place": "Venice",
+      "comment": "Notification - May 21. No proceedings.",
+      "tags": [
+        "PRACT",
+        "PS",
+        "EXP"
+      ],
+      "id": "7e8e3b06b0efe2",
+      "eventStart": "2027-06-30",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2027-04-30T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE S&P",
+      "description": "IEEE Symposium on Security and Privacy",
+      "year": 2027,
+      "link": "https://sp2027.ieee-security.org/cfposters.html",
+      "date": "TBA likely May 2027",
+      "place": "Montreal, Quebec, Canada",
+      "comment": "Notification - TBA. No proceedings.",
+      "tags": [
+        "PRACT",
+        "PS"
+      ],
+      "id": "9c5841cf652650",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2027-03-20T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "NDSS",
+      "description": "Network and Distributed System Security Symposium",
+      "year": 2026,
+      "link": "https://www.ndss-symposium.org/ndss2026/submissions/call-for-posters/",
+      "date": "February 23-27",
+      "place": "San Diego, CA, USA",
+      "comment": "Notification - February 03.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "PS"
+      ],
+      "id": "0c7914b289a767",
+      "eventStart": "2026-02-23",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-20T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PoPETS",
+      "description": "Privacy Enhancing Technologies Symposium",
+      "year": 2026,
+      "link": "https://petsymposium.org/2026/cfposters.php",
+      "date": "July 20-25",
+      "place": "Calgary, Canada",
+      "comment": "Accepted on a rolling basis until all slots are filled.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "PS"
+      ],
+      "id": "0f90e8c014f2a1",
+      "eventStart": "2026-07-20",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-10T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Federated Machine Learning International Summer School",
+      "description": "Federated Machine Learning International Summer School at FLTA",
+      "year": 2026,
+      "link": "https://school.flta-conference.org",
+      "date": "October 19-27",
+      "place": "Paris, France",
+      "comment": "Interactive lectures, hands-on labs, and real-world applications of Federated Learning.",
+      "tags": [
+        "CRS"
+      ],
+      "id": "db4fade7f6dd9a",
+      "eventStart": "2026-10-19",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-08-15T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IAS Winter School",
+      "description": "Winter School on Cryptography and Machine Learning",
+      "year": 2026,
+      "link": "https://ai4i.it/ias-winter-school-2026/",
+      "date": "February 02-05",
+      "place": "Turin, Italy",
+      "comment": "Free registration with financial support.",
+      "tags": [
+        "CRS"
+      ],
+      "id": "5c2923e4509687",
+      "eventStart": "2026-02-02",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Real World AI Security",
+      "description": "The Real World AI Security conference",
+      "year": 2026,
+      "link": "https://seclab.stanford.edu/RealWorldAIsec/",
+      "date": "June 23-25",
+      "place": "Stanford University",
+      "comment": "Covers the most impactful AI security results of the year.",
+      "tags": [
+        "CRS"
+      ],
+      "id": "9527b8d2782250",
+      "eventStart": "2026-06-23",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-15T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "TPDP",
+      "description": "Theory and Practice of Differential Privacy",
+      "year": 2026,
+      "link": "https://tpdp.journalprivacyconfidentiality.org/2026/",
+      "date": "June 01-02",
+      "place": "Boston, USA",
+      "comment": "Notification - April 02.",
+      "tags": [
+        "CRS"
+      ],
+      "id": "4224d0814bd06e",
+      "eventStart": "2026-06-01",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-18T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "TPMPC",
+      "description": "Theory and Practice of Multi-Party Computation Workshop",
+      "year": 2026,
+      "link": "https://www.multipartycomputation.com/tpmpc-2026",
+      "date": "May 18-21",
+      "place": "Aarhus, Denmark",
+      "comment": "Notification - March 31.",
+      "tags": [
+        "CRS"
+      ],
+      "id": "7064499d984925",
+      "eventStart": "2026-05-18",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-02T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "AAAI",
+      "description": "Conference on Artificial Intelligence",
+      "year": 2027,
+      "link": "https://aaai.org/conference/aaai/aaai-27/",
+      "abdeadline": "July 21",
+      "rebut": "October 19-25",
+      "date": "February 16-23",
+      "place": "Montreal, Canada",
+      "comment": "Notification - November 30. Early Reject - September 24.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "A*"
+      ],
+      "id": "dd24cb38d7d3e0",
+      "eventStart": "2027-02-16",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-28T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACML",
+      "description": "Asian Conference on Machine Learning",
+      "year": 2026,
+      "link": "https://www.acml-conf.org/2026/",
+      "rebut": "August 10-15",
+      "date": "December 01-04",
+      "place": "Melbourne, Australia",
+      "comment": "First deadline for Journal track. Notification - September 15. One author as mandatory reviewer.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "C"
+      ],
+      "id": "2da4e7abf59287",
+      "eventStart": "2026-12-01",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-06-06T23:59:00-12:00"
+        },
+        {
+          "date": "2026-07-05T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "AISTATS",
+      "description": "Annual Conference on Artificial Intelligence and Statistics",
+      "year": 2027,
+      "link": "https://virtual.aistats.org",
+      "abdeadline": "September 29",
+      "rebut": "November 16-23",
+      "date": "May 03-06",
+      "place": "Montreal, Canada",
+      "comment": "Notification - January 20.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "A"
+      ],
+      "id": "aa03dfc1738c1c",
+      "eventStart": "2027-05-03",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-10-06T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ECMLPKDD",
+      "description": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "year": 2026,
+      "link": "https://ecmlpkdd.org/2026/",
+      "abdeadline": "March 05",
+      "date": "September 07-11",
+      "place": "Naples, Italy",
+      "comment": "Notification - May 27. Applied Data Science and Industrial Tracks.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "A"
+      ],
+      "id": "d886685d82143e",
+      "eventStart": "2026-09-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-12T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ECMLPKDD (Industrial)",
+      "description": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "year": 2026,
+      "link": "https://ecmlpkdd.org/2026/",
+      "date": "September 07-11",
+      "place": "Naples, Italy",
+      "comment": "Notification - May 27.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "A"
+      ],
+      "id": "57610a21849b51",
+      "eventStart": "2026-09-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-04-26T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ICLR",
+      "description": "International Conference on Learning Representations",
+      "year": 2027,
+      "link": "https://iclr.cc/Conferences/2027",
+      "abdeadline": "September 18",
+      "rebut": "November 05-18",
+      "date": "April 26-30",
+      "place": "California, USA",
+      "comment": "Notification - December 16.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "A*"
+      ],
+      "id": "416289fc50d1b7",
+      "eventStart": "2027-04-26",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-25T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ICML",
+      "description": "International Conference on Machine Learning",
+      "year": 2026,
+      "link": "https://icml.cc/Conferences/2026",
+      "abdeadline": "January 23",
+      "date": "July 07-12",
+      "place": "COEX Convention & Exhibition Center, Seoul Korea",
+      "comment": "Special track on Position papers.",
+      "tags": [
+        "PRACT",
+        "POS",
+        "CNF",
+        "PPML",
+        "A*"
+      ],
+      "id": "b550e891b92699",
+      "eventStart": "2026-07-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-28T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IJCAI-ECAI",
+      "description": "International Joint Conference on Artificial Intelligence",
+      "year": 2026,
+      "link": "https://2026.ijcai.org",
+      "abdeadline": "January 12",
+      "rebut": "April 06-09",
+      "date": "August 15-21",
+      "place": "Bremen, Germany",
+      "comment": "Notification - April 29. Early Reject - March 04.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "A*"
+      ],
+      "id": "204a340005382f",
+      "eventStart": "2026-08-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-19T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE SaTML",
+      "description": "IEEE Conference on Secure and Trustworthy Machine Learning",
+      "year": 2027,
+      "link": "http://satml.org",
+      "abdeadline": "September 22",
+      "rebut": "November 25 - December 09",
+      "date": "May 08-10",
+      "place": "Reykjavik, Iceland",
+      "comment": "Notification - December 16. Position papers, Competitions and Workshops.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "SOK",
+        "Not classified"
+      ],
+      "id": "ac4bb25aaf4e5d",
+      "eventStart": "2027-05-08",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-09-29T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "KDD",
+      "description": "SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "year": 2027,
+      "link": "https://kdd2027.kdd.org",
+      "abdeadline": "July 19, February 03",
+      "rebut": "September 29 - October 13, April 04-18",
+      "date": "August 09-13",
+      "place": "San Jose, USA",
+      "comment": "Notofocation - November 14, May 19.",
+      "tags": [
+        "PRACT",
+        "PPML",
+        "CNF",
+        "A*"
+      ],
+      "id": "535338bb98f7f6",
+      "eventStart": "2027-08-09",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-26T23:59:00-12:00"
+        },
+        {
+          "date": "2027-01-28T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "NeurIPS",
+      "description": "Conference on Neural Information Processing Systems",
+      "year": 2026,
+      "link": "https://neurips.cc/Conferences/2026",
+      "abdeadline": "May 04",
+      "date": "December 06-12",
+      "place": "Sydney, Australia",
+      "comment": "Notification - September 24. Evaluation and Datasets Track.",
+      "tags": [
+        "PRACT",
+        "POS",
+        "CNF",
+        "PPML",
+        "A*"
+      ],
+      "id": "7d16c7ef671ee2",
+      "eventStart": "2026-12-06",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-05-06T07:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "MLSys",
+      "description": "Conference on Machine Learning and Systems",
+      "year": 2027,
+      "link": "https://mlsys.org/Conferences/2027",
+      "rebut": "Jan 18-21",
+      "date": "May 17-22",
+      "place": "Bellevue, WA",
+      "comment": "Notification - February 28. Industry Track (New)",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "Not classified"
+      ],
+      "id": "15122c8b431de1",
+      "eventStart": "2027-05-17",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-10-30T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PAKDD",
+      "description": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "year": 2027,
+      "link": "https://www.pakdd2027.org",
+      "date": "June 29 - July 02",
+      "place": "Wellington, New Zealand",
+      "comment": "Notification - February 26. Survey and LLM Tracks.",
+      "tags": [
+        "PRACT",
+        "CNF",
+        "PPML",
+        "B"
+      ],
+      "id": "b86fdcca26e13a",
+      "eventStart": "2027-06-29",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-11-20T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "AsianHOST",
+      "description": "Asian Hardware Oriented Security and Trust Symposium",
+      "year": 2026,
+      "link": "https://www.asianhost.org/2026/",
+      "date": "December 11-13",
+      "place": "Kolkata, India",
+      "comment": "Notification - September 04.",
+      "tags": [
+        "HW",
+        "APPLIED",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "ae21360a7678ca",
+      "eventStart": "2026-12-11",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-14T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "DAC",
+      "description": "Design Automation Conference",
+      "year": 2027,
+      "link": "https://dac.com/2027/",
+      "abdeadline": "November 11",
+      "date": "July 26-29",
+      "place": "Long Beach, CA",
+      "comment": "Notification - March 09.",
+      "tags": [
+        "HW",
+        "APPLIED",
+        "CNF",
+        "A*",
+        "EXP"
+      ],
+      "id": "cffe09d56b3ce1",
+      "eventStart": "2027-07-26",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2026-11-18T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE HOST",
+      "description": "IEEE International Symposium on Hardware Oriented Security and Trust",
+      "year": 2027,
+      "link": "https://host.conferences.computer.org/2027/call-for-papers/",
+      "abdeadline": "July 15, November 01",
+      "date": "May",
+      "place": "Washington DC, USA",
+      "comment": "Notification - October 22, February 09.",
+      "tags": [
+        "HW",
+        "APPLIED",
+        "CNF",
+        "Not classified"
+      ],
+      "id": "88f4906ef34b74",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-22T23:59:00-12:00"
+        },
+        {
+          "date": "2026-11-08T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ISCA",
+      "description": "International Symposium on Computer Architecture",
+      "year": 2027,
+      "link": "https://iscaconf.org/isca2027",
+      "abdeadline": "November 10, December 05",
+      "date": "June 05-09",
+      "place": "Atlanta, GA, USA",
+      "comment": "Notification - March 27. December deadline for Industrial Track.",
+      "tags": [
+        "HW",
+        "APPLIED",
+        "CNF",
+        "A*",
+        "EXPCFP"
+      ],
+      "id": "c531bb1049e40f",
+      "eventStart": "2027-06-05",
+      "tba": true,
+      "deadlines": [
+        {
+          "date": "2026-11-17T23:59:00-12:00"
+        },
+        {
+          "date": "2026-12-12T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CNIL-Inria Privacy Award",
+      "description": "CNIL-Inria Privacy Award",
+      "year": 2026,
+      "link": "https://www.cnil.fr/en/launch-10th-edition-cnil-inria-privacy-award",
+      "date": "June 24",
+      "place": "Paris, France",
+      "comment": "For works published between January 2023 to 2026. Notification - June 01.",
+      "tags": [
+        "MISC"
+      ],
+      "id": "2508171045c86c",
+      "eventStart": "2026-06-24",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-27T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "CNIL-Inria Privacy Research Day",
+      "description": "CNIL-Inria Privacy Day",
+      "year": 2026,
+      "link": "https://www.cnil.fr/en/call-papers-privacy-research-day-june-24th-2026-paris",
+      "date": "June 24",
+      "place": "Paris, France",
+      "comment": "Recently published, multi-disciplinary. Notification - May 04.",
+      "tags": [
+        "MISC"
+      ],
+      "id": "3c8eccd563273f",
+      "eventStart": "2026-06-24",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-22T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Cybersecurity Artifacts Competition and Impact Award",
+      "description": "ACSAC",
+      "year": 2026,
+      "link": "https://www.acsac.org/2026/submissions/artifacts_competition/",
+      "date": "December 07-11",
+      "place": "Los Angeles, USA",
+      "comment": "Cybersecurity artifacts published in all peer-reviewed venues. Notification - October 31.",
+      "tags": [
+        "MISC"
+      ],
+      "id": "1dec8fc01e2e27",
+      "eventStart": "2026-12-07",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-10-17T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Doctoral Symposium at ACM CCS",
+      "description": "ACM CCS’26 Doctoral Symposium",
+      "year": 2026,
+      "link": "https://www.sigsac.org/ccs/CCS2026/call-for/call-for-doctoral-symposium.html",
+      "date": "November 15-19",
+      "place": "The Hague, Netherlands",
+      "comment": "Notification - September 05. Invited PhD student receives student travel grant.",
+      "tags": [
+        "APPLIED",
+        "MISC"
+      ],
+      "id": "4eb255bd0b6ec2",
+      "eventStart": "2026-11-15",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-07-30T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "Enigma@USENIX Security",
+      "description": "Usenix Security Enigma Track",
+      "year": 2026,
+      "link": "https://www.usenix.org/conference/usenixsecurity26/enigma-cfp",
+      "date": "August 12-14",
+      "place": "Baltimore, MD, USA",
+      "comment": "Notification - May 13.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "MISC"
+      ],
+      "id": "d20a239b325311",
+      "eventStart": "2026-08-12",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-03-31T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE Cybersecurity Award for Practice",
+      "description": "IEEE",
+      "year": 2026,
+      "link": "https://sp2026.ieee-security.org/nominations-cybersecurity-award.html",
+      "date": "May 18-21",
+      "place": "San Francisco, CA",
+      "tags": [
+        "MISC"
+      ],
+      "id": "5dcfd924666053",
+      "eventStart": "2026-05-18",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-24T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PhD Symposium at The Web Conference",
+      "description": "The Web Conference (WWW)",
+      "year": 2026,
+      "link": "https://www2026.thewebconf.org/calls/phd-symposium.html",
+      "date": "June 30",
+      "place": "Dubai, UAE",
+      "comment": "Notification - February 03. Has proceedings.",
+      "tags": [
+        "APPLIED",
+        "MISC"
+      ],
+      "id": "58e9171dd4483d",
+      "eventStart": "2026-06-30",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-01-05T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "PET-CON 2026.1",
+      "description": "15th Privacy Enhancing Techniques Convention",
+      "year": 2026,
+      "link": "https://fg-pet.gi.de/veranstaltung/15th-privacy-enhancing-techniques-convention",
+      "date": "April 16-17",
+      "place": "Karlsruhe Institute for Technology",
+      "comment": "Free registration.",
+      "tags": [
+        "APPLIED",
+        "MISC"
+      ],
+      "id": "4420d2cc960211",
+      "eventStart": "2026-04-16",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-04-09T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "ACM TOPS",
+      "description": "ACM Transactions on Privacy and Security",
+      "year": 2026,
+      "link": "https://dl.acm.org/journal/tops/author-guidelines",
+      "portal": "https://mc.manuscriptcentral.com/tops",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "JRN"
+      ],
+      "id": "e99b2f45431751",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IACR CiC",
+      "description": "Communications in Cryptology",
+      "year": 2026,
+      "link": "https://cic.iacr.org",
+      "comment": "Notification in two months.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "JRN"
+      ],
+      "id": "1ab1d37dbfa14c",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": "2026-02-02T23:59:00-12:00"
+        },
+        {
+          "date": "2026-04-27T23:59:00-12:00"
+        },
+        {
+          "date": "2026-07-27T23:59:00-12:00"
+        },
+        {
+          "date": "2026-10-26T23:59:00-12:00"
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IACR JoC",
+      "description": "Journal of Cryptology",
+      "year": 2026,
+      "link": "https://www.iacr.org/jofc/",
+      "portal": "https://www.editorialmanager.com/jcryptology/",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "THEORY",
+        "JRN"
+      ],
+      "id": "c40c6195d342ff",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE TC",
+      "description": "IEEE Transactions on Computers",
+      "year": 2026,
+      "link": "https://www.computer.org/digital-library/journals/tc/call-for-papers-general-submissions",
+      "portal": "https://mc.manuscriptcentral.com/tc-cs",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "JRN"
+      ],
+      "id": "dd5c31cd0f0156",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE TDSC",
+      "description": "IEEE Transactions on Dependable and Secure Computing",
+      "year": 2026,
+      "link": "https://www.computer.org/csdl/journal/tq/write-for-us/15068",
+      "portal": "https://mc.manuscriptcentral.com/tdsc-cs",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "JRN"
+      ],
+      "id": "577206e952d9c3",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE TIFS",
+      "description": "IEEE Transactions on Information Forensics and Security",
+      "year": 2026,
+      "link": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "portal": "https://mc.manuscriptcentral.com/tifs-ieee",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "JRN"
+      ],
+      "id": "3e26f7f74f0339",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE TPDS",
+      "description": "IEEE Transactions on Parallel and Distributed Systems",
+      "year": 2026,
+      "link": "https://www.computer.org/csdl/journal/td/",
+      "portal": "https://mc.manuscriptcentral.com/tpds-cs",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "JRN"
+      ],
+      "id": "da9fa664036d43",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "IEEE ToSC",
+      "description": "IEEE Transactions on Services Computing",
+      "year": 2026,
+      "link": "https://www.computer.org/csdl/journal/sc",
+      "portal": "https://mc.manuscriptcentral.com/tsc-cs",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "PRACT",
+        "APPLIED",
+        "JRN"
+      ],
+      "id": "3009b981a112ef",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "JACM",
+      "description": "Journal of the ACM",
+      "year": 2026,
+      "link": "https://dl.acm.org/journal/jacm",
+      "portal": "https://mc.manuscriptcentral.com/jacm",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "JRN"
+      ],
+      "id": "9dc8965d3729d8",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "JCSS",
+      "description": "Journal of Computer and System Sciences",
+      "year": 2026,
+      "link": "https://www.elsevier.com/journals/journal-of-computer-and-system-sciences/0022-0000/guide-for-authors",
+      "portal": "https://www.editorialmanager.com/jcss/",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "THEORY",
+        "JRN"
+      ],
+      "id": "88c6699fdbc281",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    },
+    {
+      "name": "JPDC",
+      "description": "Journal of Parallel and Distributed Computing",
+      "year": 2026,
+      "link": "https://www.elsevier.com/journals/journal-of-parallel-and-distributed-computing/0743-7315/guide-for-authors",
+      "portal": "https://www.editorialmanager.com/jpdc/",
+      "comment": "Accepts submission throughout the year.",
+      "tags": [
+        "THEORY",
+        "PRACT",
+        "JRN"
+      ],
+      "id": "4deafb44b8f269",
+      "tba": false,
+      "deadlines": [
+        {
+          "date": null
+        }
+      ],
+      "sourceTimezone": "AoE (UTC−12)"
+    }
+  ]
+}
