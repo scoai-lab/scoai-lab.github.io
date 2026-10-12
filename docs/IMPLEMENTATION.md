@@ -12,7 +12,7 @@ Implementation is independent browser-native HTML/CSS/JavaScript. Data snapshots
 - [x] Implement pure tracker model; test filtering, expired/TBA ordering, abstract cutoff, calendar UTC escaping and invalid dates.
 - [x] Build shared responsive shell, homepage and both trackers with original artwork.
 - [x] Run tests, inspect desktop/mobile in browser, and check direct routes and assets under a repository prefix.
-- [ ] Add static build, data refresh, Pages deployment workflows and operating instructions; save deliverable and push authorized repo work.
+- [x] Add static build, data refresh, Pages deployment workflows and operating instructions; save deliverable and push authorized repo work.
 
 ## Review focus
 Ambiguous/missing dates remain unknown; no made-up deadlines. Long names and small viewports wrap. Storage and network failures are recoverable. Calendar export reflects the active filters and excludes unconfirmed deadlines. Deep routes resolve independently of SPA fallbacks. The requested scoai-lab.github.io hostname requires its GitHub owner; htkchi/scoai-website alone cannot provide it.
@@ -25,3 +25,5 @@ Ambiguous/missing dates remain unknown; no made-up deadlines. Long names and sma
 - Expanded MPC details remain open across more than one minute; automatic rerender now occurs only at a real deadline boundary, retaining details and focused controls.
 - Static link validation passes for the production output and nested pages.
 - The initial repo has no commits; implementation is the first website version. GitHub credentials report push access but not repository administration, so enabling Pages may require the owner.
+
+Deployment result: GitHub Actions build succeeded; deploy stopped at configure-pages because Pages is not enabled. The available credential cannot create the Pages site (API returns 404, repository permission reports admin=false). Owner action: Settings → Pages → Source: GitHub Actions, then rerun the workflow.
