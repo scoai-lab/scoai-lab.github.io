@@ -27,9 +27,14 @@ Open `http://127.0.0.1:4173/`. A web server is required for JSON and ES modules;
 
 In repository **Settings → Pages**, select **GitHub Actions** as the build source. The included workflow validates and deploys pushes to `main`. Daily scheduled builds and manual workflow runs refresh source data before deployment. A failed refresh fails the build and leaves the previously deployed version intact. Snapshot changes from the scheduled build are deployed as an artifact, not committed back to the repo.
 
-For the current repo, the project URL is `https://htkchi.github.io/scoai-website/`, and the conference page is `https://htkchi.github.io/scoai-website/conference-deadlines/`.
+The canonical repository is `https://github.com/scoai-lab/scoai-lab.github.io`.
 
-To obtain exactly `https://scoai-lab.github.io/conference-deadlines/`, publish these files in a repository named `scoai-lab.github.io` owned by the GitHub user/organization `scoai-lab`. Creating or accessing that owner is required. A repository under `htkchi` cannot claim another owner's `github.io` hostname. Relative links make the website work unchanged at either base path.
+Published routes:
+- `https://scoai-lab.github.io/`
+- `https://scoai-lab.github.io/conference-deadlines/`
+- `https://scoai-lab.github.io/mpc-deadlines/`
+
+All three pages are served by this single organization repository. Relative links also support previews under a subdirectory.
 
 ## Data maintenance
 

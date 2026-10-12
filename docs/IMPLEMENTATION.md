@@ -27,3 +27,7 @@ Ambiguous/missing dates remain unknown; no made-up deadlines. Long names and sma
 - The initial repo has no commits; implementation is the first website version. GitHub credentials report push access but not repository administration, so enabling Pages may require the owner.
 
 Deployment result: GitHub Actions build succeeded; deploy stopped at configure-pages because Pages is not enabled. The available credential cannot create the Pages site (API returns 404, repository permission reports admin=false). Owner action: Settings → Pages → Source: GitHub Actions, then rerun the workflow.
+
+## Organization migration
+
+Migrated the complete website and Git history to scoai-lab/scoai-lab.github.io at the user’s request. The new repository grants admin access, allowing GitHub Pages configuration. The original htkchi repository remains unchanged. Updated the public GitHub link and deployment documentation for the organization domain.
