@@ -60,6 +60,6 @@ Home copy is based on the lab description provided by the owner. No team identit
 
 ## Website view counter
 
-The shared footer embeds a Hits badge for `scoai-lab.github.io`, starting on 2026-10-16. All pages use the same counter. Only the production hostname loads the badge, so local previews do not contribute. Theme/language changes do not reload it. Clicking it opens the service’s public statistics page.
+The shared footer embeds a Hits badge for `scoai-lab.github.io`, starting on 2026-10-16. All pages use the same counter. Only the production hostname loads the badge, so local previews do not contribute. Theme/language changes do not reload it. The badge displays only “Total visits”: one cumulative total across the entire website. It has no weekly/monthly breakdown, reset, or statistics link.
 
 This is an approximate page-view count, not unique people. Browser caching, blockers, bots and production QA can affect it. No previous traffic is backfilled and no artificial starting count is added. The badge is hosted by a third party (`hits.sh`), which receives the image request; referrer information is suppressed. If it fails, the footer shows an unavailable message without blocking the site.
