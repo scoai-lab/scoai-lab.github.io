@@ -20,6 +20,10 @@ const optionLabels={
  'Architecture & Systems':'Kiến trúc & hệ thống','Networking':'Mạng máy tính','Security & Privacy':'An toàn & quyền riêng tư','Software Engineering':'Kỹ thuật phần mềm','Databases & Data Mining':'Cơ sở dữ liệu & khai phá dữ liệu','Theory':'Lý thuyết','Graphics & Multimedia':'Đồ họa & đa phương tiện','Artificial Intelligence':'Trí tuệ nhân tạo','HCI & Ubiquitous Computing':'Tương tác người–máy & điện toán phổ biến','Interdisciplinary & Emerging':'Liên ngành & lĩnh vực mới','Practical':'Thực hành','Applied':'Ứng dụng','Machine Learning':'Học máy','Hardware':'Phần cứng','SoKs':'Tổng quan hệ thống (SoK)','Position':'Bài quan điểm','Conferences':'Hội nghị','Journals':'Tạp chí','Workshops':'Workshop','Posters':'Poster','Crypto Schools':'Trường học mật mã','Miscellaneous':'Khác','National':'Cấp quốc gia','Unranked':'Chưa xếp hạng','Not classified':'Chưa phân loại'
 };
 const optionLabel=name=>language==='vi'?(optionLabels[name]||name):name;
+messages.en.visits='Website views';messages.vi.visits='Lượt truy cập';
+messages.en.counterUnavailable='Counter temporarily unavailable';messages.vi.counterUnavailable='Bộ đếm tạm thời không khả dụng';
+messages.en.counterPreview='Preview visits are not counted';messages.vi.counterPreview='Không đếm lượt xem bản thử';
+messages.en.counterAlt='Total website views, provided by Hits';messages.vi.counterAlt='Tổng lượt truy cập website, cung cấp bởi Hits';
 const t=key=>messages[language][key]||key;
 const paths={arrow:'M4 12h16m-6-6 6 6-6 6',up:'M12 20V4m-6 6 6-6 6 6',down:'M12 4v16m-6-6 6 6 6-6',external:'M14 4h6v6m0-6-9 9M10 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-5',calendar:'M7 3v4m10-4v4M4 10h16M5 5h14a1 1 0 0 1 1 1v14H4V6a1 1 0 0 1 1-1M8 14h2m4 0h2m-8 3h2',shield:'M12 3 3 7v6c0 5 9 9 9 9s9-4 9-9V7zM8 12l3 3 5-6',network:'M5 7 12 3l7 4v10l-7 4-7-4ZM5 7l7 6 7-6m-7 6v8M5 17l14-10',box:'M3 7l9-4 9 4v11l-9 4-9-4ZM3 7l9 4 9-4M12 11v11M7 5l9 4',chart:'M4 3v17h17M7 15l4-5 4 2 5-7',route:'M4 6h10a4 4 0 0 1 0 8H9a4 4 0 0 0 0 8h11M17 19l3 3-3 3M4 3v6',compass:'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M16 8l-3 5-5 3 3-5Z',search:'M10 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14m5 12 6 6',pin:'M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0ZM12 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6',download:'M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5',filter:'M4 6h16M7 12h10m-7 6h4',close:'M6 6l12 12M6 18 18 6',menu:'M4 6h16M4 12h16M4 18h16',sun:'M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5',moon:'M20.5 13.1A8.7 8.7 0 0 1 10.9 3.5 8.7 8.7 0 1 0 20.5 13.1Z',monitor:'M3 4h18v13H3ZM8 21h8m-4-4v4',info:'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M12 10v7m0-11v1'};
 const icon=name=>`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name]||paths.info}"/></svg>`;
@@ -30,6 +34,7 @@ function translateStatic(){
  $$('[data-en][data-vi]').forEach(e=>e.innerHTML=e.dataset[language]);
  const lang=$('#language');lang.textContent=language==='en'?'VI':'EN';lang.setAttribute('aria-label',t('language'));
  paintThemeButton();
+ const counterImage=$('#visitor-counter-image');if(counterImage)counterImage.alt=t('counterAlt');
  $('#menu').setAttribute('aria-label',t('menu'));
  if(page!=='home')$('.tracker-description').textContent=t(page+'Description');
 }
@@ -43,7 +48,7 @@ function paintThemeButton(){
 }
 function shell(){
  $('#header').innerHTML=`<div class="header wrap"><a class="brand" href="${base}" aria-label="SCOAI Lab home"><img src="${base}assets/scoai-logo-transparent.png" alt="SCOAI Lab" width="1774" height="887"></a><nav class="nav" id="navigation" aria-label="Main navigation"><a href="${base}#about" data-t="about"></a><a href="${base}#research" data-t="research"></a><a href="${base}#team" data-t="team"></a><a class="nav-resources" href="${base}${page==='home'?'#resources':'conference-deadlines/'}"><span data-t="tools"></span>${icon('arrow')}</a></nav><div class="header-controls"><button id="language" class="language-button" type="button"></button><button id="theme" class="theme-button" type="button"></button><button id="menu" class="menu-toggle" aria-controls="navigation" aria-expanded="false">${icon('menu')}</button></div></div>`;
- $('#footer').innerHTML=`<div class="footer wrap"><div class="footer-top"><div><a class="brand" href="${base}" aria-label="SCOAI Lab home"><img src="${base}assets/scoai-logo-transparent.png" alt="SCOAI Lab" width="1774" height="887" loading="lazy"></a><p class="footer-tagline" data-t="built"></p></div><div class="footer-links"><a href="${base}#research" data-t="research"></a><a href="${base}conference-deadlines/" data-t="conferenceTool">Conference Deadlines</a><a href="${base}mpc-deadlines/" data-t="mpcTool">MPC Deadlines</a><a href="https://github.com/scoai-lab/scoai-lab.github.io" target="_blank" rel="noopener noreferrer">GitHub ${icon('external')}</a></div></div><div class="footer-bottom"><span data-t="rights"></span><span>© ${new Date().getFullYear()} SCOAI Lab <span aria-hidden="true"> / </span> <a href="${base}credits.html" data-t="credits"></a></span></div></div>`;
+ $('#footer').innerHTML=`<div class="footer wrap"><div class="footer-top"><div><a class="brand" href="${base}" aria-label="SCOAI Lab home"><img src="${base}assets/scoai-logo-transparent.png" alt="SCOAI Lab" width="1774" height="887" loading="lazy"></a><p class="footer-tagline" data-t="built"></p></div><div class="footer-links"><a href="${base}#research" data-t="research"></a><a href="${base}conference-deadlines/" data-t="conferenceTool">Conference Deadlines</a><a href="${base}mpc-deadlines/" data-t="mpcTool">MPC Deadlines</a><a href="https://github.com/scoai-lab/scoai-lab.github.io" target="_blank" rel="noopener noreferrer">GitHub ${icon('external')}</a></div></div><div class="footer-bottom"><span data-t="rights"></span><div class="visitor-counter"><span data-t="visits"></span><a id="visitor-counter-link" href="https://hits.sh/scoai-lab.github.io/" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"><img id="visitor-counter-image" alt="Total website views, provided by Hits" width="110" height="26" referrerpolicy="no-referrer" hidden><span id="visitor-counter-fallback" data-t="counterPreview"></span></a></div><span>© ${new Date().getFullYear()} SCOAI Lab <span aria-hidden="true"> / </span> <a href="${base}credits.html" data-t="credits"></a></span></div></div>`;
  try{themeChoice=localStorage.getItem('scoai-theme')||'light';}catch{themeChoice='light';}
  if(!['light','dark','auto'].includes(themeChoice))themeChoice='light';
  const applyTheme=()=>{document.documentElement.dataset.theme=themeChoice==='auto'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):themeChoice;try{localStorage.setItem('scoai-theme',themeChoice);}catch{}paintThemeButton();};
@@ -55,6 +60,14 @@ function shell(){
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#navigation').classList.contains('open')){$('#navigation').classList.remove('open');$('#menu').setAttribute('aria-expanded','false');$('#menu').focus();}else if(e.key==='Escape'&&$('#filters')?.classList.contains('open')){$('#filters').classList.remove('open');$('#filter-toggle').setAttribute('aria-expanded','false');$('#filter-toggle').focus();}});
  $('#language').addEventListener('click',()=>{language=language==='en'?'vi':'en';save('scoai-language',language);translateStatic();if(dataset)renderTracker();});
  translateStatic();icons();
+ const counterImage=$('#visitor-counter-image'),counterFallback=$('#visitor-counter-fallback');
+ if(location.hostname==='scoai-lab.github.io'){
+   counterFallback.dataset.t='counterUnavailable';counterFallback.textContent=t('counterUnavailable');counterFallback.hidden=true;
+   counterImage.addEventListener('error',()=>{counterImage.hidden=true;counterFallback.hidden=false;},{once:true});
+   counterImage.hidden=false;
+   // One shared total across pages. Theme/language changes never reload the badge.
+   counterImage.src='https://hits.sh/scoai-lab.github.io.svg?style=flat&label=TOTAL&color=527b7a&labelColor=0c354b';
+ }
 }
 let dataset,visibleEntries=[],limit=24,refreshAt=Infinity;
 const defaultState={q:'',groups:[],country:'',status:'all',sort:'deadline'};

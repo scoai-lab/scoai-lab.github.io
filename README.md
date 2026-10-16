@@ -8,7 +8,7 @@ A responsive lab website and two integrated research deadline trackers, branded 
 - `/conference-deadlines/`: conference search, area / CORE / country filters, abstract and paper countdowns, TBA status, timezone selection and iCal export.
 - `/mpc-deadlines/`: MPC venue search, domain / publication type / CORE filters, multiple rounds, expected CFPs, rebuttal notes and iCal export.
 
-Shared English/Vietnamese UI, light/dark/automatic themes, mobile navigation, accessible form labels, reduced-motion support and persistent preferences. No backend, analytics, account system or frontend dependencies. Vietnamese uses locally bundled Be Vietnam Pro with its SIL Open Font License. English uses optional Google Fonts with system fallbacks. All data is included locally.
+Shared English/Vietnamese UI, light/dark/automatic themes, mobile navigation, accessible form labels, reduced-motion support and persistent preferences. No application backend, account system or frontend dependencies. The public view counter uses Hits (see below). Vietnamese uses locally bundled Be Vietnam Pro with its SIL Open Font License. English uses optional Google Fonts with system fallbacks. All data is included locally.
 
 ## Preview and validate
 
@@ -57,3 +57,9 @@ For event-date sorting, only unambiguous month/day strings have a derived sort d
 - `credits.html`: public source acknowledgements.
 
 Home copy is based on the lab description provided by the owner. No team identities, institutional affiliations or research results have been invented.
+
+## Website view counter
+
+The shared footer embeds a Hits badge for `scoai-lab.github.io`, starting on 2026-10-16. All pages use the same counter. Only the production hostname loads the badge, so local previews do not contribute. Theme/language changes do not reload it. Clicking it opens the service’s public statistics page.
+
+This is an approximate page-view count, not unique people. Browser caching, blockers, bots and production QA can affect it. No previous traffic is backfilled and no artificial starting count is added. The badge is hosted by a third party (`hits.sh`), which receives the image request; referrer information is suppressed. If it fails, the footer shows an unavailable message without blocking the site.
